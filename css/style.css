@@ -134,9 +134,11 @@ a:hover, span:hover {
 }
 
 .custom-font {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Economica', sans-serif;
 }
-
+.color-primary {
+  color: #8C52FF;
+}
 .color-font {
   background: -webkit-gradient(linear, left top, right top, from(#45F8FF), color-stop(#c471ed), to(#8C52FF));
   background: -webkit-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
