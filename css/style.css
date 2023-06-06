@@ -128,7 +128,66 @@ a, span {
 a:hover, span:hover {
   text-decoration: none;
 }
+.list-group-item{
+  background-color: transparent!important;
+}
 
+.mobile{
+  display: none;
+}
+.list-group-item .row .icon{
+  
+  margin-top: 7px;
+  margin-right: 10px;
+  font-size: 35px;
+  color: green;
+  font-weight: bold;
+
+}
+
+.list-group-item .row p {
+  
+  font-size: 25px !important;
+  font-weight: bold;
+  color: green;
+
+}
+
+.ctaBox {
+  background-color: #061644;
+  color: #f5f5fa!important;
+  padding: 2em;
+  border-radius: 20px;
+  margin-top: -150px;
+}
+
+.ctaBox img {
+  width: 50%;
+}
+
+.ctaBox h1 {
+  font-size: 1.7em;
+  margin-bottom: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.ctaBox h1 s{
+  margin-bottom: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+.ctaBox a {
+  font-size: 1.7em!important;
+  padding: 25px 36px 25px 36px;
+}
+.ctaPrice{
+  color: #45F8FF!important;
+  font-size: 4em;
+  font-weight: 900;
+  line-height: 0.9em;
+  font-family: 'Anton', serif!important;
+}
 .container {
   max-width: 1200px;
 }
@@ -7872,6 +7931,13 @@ footer .item .copy-right p a {
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+  .ctaBox a {
+    padding: 20px 20px 20px 20px;
+  }
+  .ctaBox{
+    margin-top: 0px;
+  }
+  
   .bg-img {
     background-position: center !important;
   }
@@ -8185,6 +8251,43 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 767px) {
+  .ctaBox a {
+    font-size: 1.4em!important;
+  }
+  .list-group-item .row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .list-group-item .row .icon{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+
+}
+
+.list-group-item .row p {
+  
+  font-size: 15px !important;
+  font-weight: bold;
+  color: #f5f5fa;
+  text-align: left;
+
+}
+  .ctaBox{
+    margin-top: 0px;
+  }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: initial;
+  }
+  .butn.cta {
+    font-size: 25px;
+  }
   .sm-mb10 {
     margin-bottom: 10px;
   }
@@ -8489,9 +8592,8 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 480px) {
-  .butn.cta {
-    font-size: 25px;
-  }
+
+  
 
   .hamenu .cont-info {
     display: none;
