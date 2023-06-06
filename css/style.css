@@ -63,7 +63,7 @@ html {
 }
 
 body {
-  color: #111;
+  color: #0c0c0f;
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
@@ -112,16 +112,16 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #888;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 300;
   line-height: 2;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Economica', sans-serif;
 }
 
 a, span {
   display: inline-block;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Economica', sans-serif;
 
 }
 
@@ -138,29 +138,29 @@ a:hover, span:hover {
 }
 
 .color-font {
-  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-gradient(linear, left top, right top, from(#45F8FF), color-stop(#c471ed), to(#8C52FF));
+  background: -webkit-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: -o-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: linear-gradient(to right, #45F8FF, #c471ed, #8C52FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .back-color {
-  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-gradient(linear, left top, right top, from(#45F8FF), color-stop(#c471ed), to(#8C52FF));
+  background: -webkit-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: -o-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: linear-gradient(to right, #45F8FF, #c471ed, #8C52FF);
 }
 
 .line {
   position: absolute;
   height: 1px;
   width: 65%;
-  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-gradient(linear, left top, right top, from(#45F8FF), color-stop(#c471ed), to(#8C52FF));
+  background: -webkit-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: -o-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: linear-gradient(to right, #45F8FF, #c471ed, #8C52FF);
 }
 
 .line.top {
@@ -982,10 +982,10 @@ a:hover, span:hover {
   height: 100%;
   width: 100%;
   background: #12c2e9;
-  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-gradient(linear, left top, right top, from(#45F8FF), color-stop(#c471ed), to(#8C52FF));
+  background: -webkit-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: -o-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: linear-gradient(to right, #45F8FF, #c471ed, #8C52FF);
 }
 
 .pace.pace-inactive {
@@ -1657,12 +1657,14 @@ body {
   color: #333;
 }
 
-.butn.color {
+.butn.cta {
   background: #8C52FF;
+  color: white;
   border: transparent;
+  font-size: 40px;
 }
 
-.butn.color:hover {
+.butn.cta:hover {
   background: #8141ff;
   color: #111;
 }
@@ -2580,10 +2582,10 @@ body {
   left: -5px;
   right: -5px;
   bottom: -5px;
-  background: -webkit-gradient(linear, left top, right top, from(#45F8FF), color-stop(#061644), to(#8C52FF));
-  background: -webkit-linear-gradient(left, #45F8FF, #061644, #8C52FF);
-  background: -o-linear-gradient(left,#45F8FF, #061644, #8C52FF);
-  background: linear-gradient(to right, #45F8FF, #061644, #8C52FF);
+  background: -webkit-gradient(linear, left top, right top, from(#45F8FF), color-stop(#c471ed), to(#8C52FF));
+  background: -webkit-linear-gradient(left, #45F8FF, #c471ed, #8C52FF);
+  background: -o-linear-gradient(left,#45F8FF, #c471ed, #8C52FF);
+  background: linear-gradient(to right, #45F8FF, #c471ed, #8C52FF);
   border-radius: 15px;
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
@@ -8485,6 +8487,10 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 480px) {
+  .butn.cta {
+    font-size: 25px;
+  }
+
   .hamenu .cont-info {
     display: none;
   }
