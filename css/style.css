@@ -67,7 +67,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 
 img {
@@ -116,10 +116,13 @@ p {
   font-weight: 300;
   line-height: 2;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 a, span {
   display: inline-block;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 a:hover, span:hover {
@@ -1231,9 +1234,18 @@ body {
   height: 6px;
   z-index: 10000001;
   background-color: #12c2e9;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
 }
 
 .cursor-inner.cursor-hover {
@@ -1646,15 +1658,12 @@ body {
 }
 
 .butn.color {
-  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: #8C52FF;
   border: transparent;
 }
 
 .butn.color:hover {
-  background: #fff;
+  background: #8141ff;
   color: #111;
 }
 
@@ -2571,10 +2580,10 @@ body {
   left: -5px;
   right: -5px;
   bottom: -5px;
-  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-gradient(linear, left top, right top, from(#45F8FF), color-stop(#061644), to(#8C52FF));
+  background: -webkit-linear-gradient(left, #45F8FF, #061644, #8C52FF);
+  background: -o-linear-gradient(left,#45F8FF, #061644, #8C52FF);
+  background: linear-gradient(to right, #45F8FF, #061644, #8C52FF);
   border-radius: 15px;
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
@@ -3078,9 +3087,12 @@ body {
   color: #fff;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .5s, visibility .5s;
-  -o-transition: opacity .5s, visibility .5s;
-  transition: opacity .5s, visibility .5s;
+  -webkit-transition: opacity .5s,
+ visibility .5s;
+  -o-transition: opacity .5s,
+ visibility .5s;
+  transition: opacity .5s,
+ visibility .5s;
 }
 
 .slider-bus .caption p {
