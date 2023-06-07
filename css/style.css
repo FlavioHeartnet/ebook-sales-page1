@@ -7931,6 +7931,15 @@ footer .item .copy-right p a {
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: initial;
+  }
+  .slider-st{
+    padding: 2em;
+  }
   .ctaBox a {
     padding: 20px 20px 20px 20px;
   }
@@ -8251,6 +8260,7 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 767px) {
+ 
   .ctaBox a {
     font-size: 1.4em!important;
   }
@@ -8279,14 +8289,9 @@ footer .item .copy-right p a {
   .ctaBox{
     margin-top: 0px;
   }
-  .desktop{
-    display: none;
-  }
-  .mobile{
-    display: initial;
-  }
+ 
   .butn.cta {
-    font-size: 25px;
+    font-size: 20px;
   }
   .sm-mb10 {
     margin-bottom: 10px;
@@ -8593,7 +8598,9 @@ footer .item .copy-right p a {
 
 @media screen and (max-width: 480px) {
 
-  
+  .slider-st{
+    padding: 0;
+  }
 
   .hamenu .cont-info {
     display: none;
