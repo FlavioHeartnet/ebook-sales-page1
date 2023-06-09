@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #1f1f29;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 2;
   margin: 0;
@@ -131,6 +131,12 @@ a:hover, span:hover {
 
 footer p {
   color: #f5f5fa;
+}
+
+.pulse-butn {
+  -webkit-animation: pulse 1.5s infinite;
+  -moz-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
 }
 .list-group-item{
   background-color: transparent!important;
@@ -8310,7 +8316,7 @@ footer .item .copy-right p a {
 
 .list-group-item .row p {
   
-  font-size: 15px !important;
+  font-size: 20px !important;
   font-weight: bold;
   color: #f5f5fa;
   text-align: left;
