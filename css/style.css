@@ -1727,6 +1727,7 @@ body {
   color: white;
   border: transparent;
   font-size: 40px;
+  text-align: center;
 }
 
 .butn.cta:hover {
@@ -7941,6 +7942,10 @@ footer .item .copy-right p a {
   .mobile{
     display: initial;
   }
+  .mobile.row div{
+    margin-left: auto;
+    margin-right: auto;
+  }
   .slider-st{
     padding: 2em;
   }
@@ -7950,6 +7955,27 @@ footer .item .copy-right p a {
   .ctaBox{
     margin-top: 0px;
   }
+  .list-group-item .row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .list-group-item .row .icon{
+    margin-top: 9px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+
+}
+
+.list-group-item .row p {
+  
+  font-size: 25px !important;
+  font-weight: bold;
+  color: #f5f5fa;
+  text-align: left;
+}
   
   .bg-img {
     background-position: center !important;
